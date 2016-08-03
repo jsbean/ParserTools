@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032ED7361F60C9EE79483C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95118EC60DCAEFB7B7DD852 /* Foundation.framework */; };
+		2BB2783C93521B19EC9B44BE /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24296BD0F1C6BCA345A46523 /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CE6FE9BDF13D165F011DBA6 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A9C73F35C4B1F6B5E38AA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
+		8696719DC1886EDC4AFBB8B8 /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC6D6CDCCCAA5D14FC44E5DE /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
+		BE6165E11A82178845C62162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95118EC60DCAEFB7B7DD852 /* Foundation.framework */; };
+		FB1C027CB08F64DB52A8E305 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C183F91845D0569FFB19748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED42961C87629AA4E0485E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B336DA54CA61AB7D6F95F019;
+			remoteInfo = ParserToolsMac;
+		};
+		889D6129D01CD680D0BF327E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED42961C87629AA4E0485E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE80001C63A5FCA775FD90F4;
+			remoteInfo = ParserTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18121B6B2CBF591B2C3C2BD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				2BB2783C93521B19EC9B44BE /* ParserTools.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B8237A5A6026842C1DE306 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				8696719DC1886EDC4AFBB8B8 /* ParserTools.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24296BD0F1C6BCA345A46523 /* ParserTools.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4755121EC7DDDE5CC9B29A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParserToolsTests/Info.plist; sourceTree = "<group>"; };
+		6F5EE2D0E5E4B07924277199 /* ParserTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6D6CDCCCAA5D14FC44E5DE /* ParserTools.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6BE5C35E0E00891AD51B84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParserTools/Info.plist; sourceTree = "<group>"; };
+		D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParserTools.h; path = ParserTools/ParserTools.h; sourceTree = "<group>"; };
+		D51DBD3C3738F18C5FAB424B /* ParserTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC48679262BB79CA209C977 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E2EABF38A2CD9B9A4FD74A91 /* ParserToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95118EC60DCAEFB7B7DD852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11CB0D01315AA524EC5538E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6165E11A82178845C62162 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9793D5FE88DBD91D618724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A9C73F35C4B1F6B5E38AA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D11FB5BC46B9BF37B2F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032ED7361F60C9EE79483C21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6336CE1D350BFE0C0432205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D6BBBD5F8D0270FE0CE799 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE6BE5C35E0E00891AD51B84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CE796BA6EB3EC314E1A5BD6 /* ParserToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8A9552FC185E235582C6B0 /* Supporting Files */,
+			);
+			name = ParserToolsTests;
+			sourceTree = "<group>";
+		};
+		29E7F26E178A670B956B4E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51DBD3C3738F18C5FAB424B /* ParserTools.framework */,
+				E2EABF38A2CD9B9A4FD74A91 /* ParserToolsTests.xctest */,
+				6F5EE2D0E5E4B07924277199 /* ParserTools.framework */,
+				1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8A9552FC185E235582C6B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4755121EC7DDDE5CC9B29A04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8C4F22A80AC2AFE00D65A5 /* ParserTools */ = {
+			isa = PBXGroup;
+			children = (
+				01D6BBBD5F8D0270FE0CE799 /* Supporting Files */,
+			);
+			name = ParserTools;
+			sourceTree = "<group>";
+		};
+		837417978C0B86E6E8B4563E = {
+			isa = PBXGroup;
+			children = (
+				29E7F26E178A670B956B4E1A /* Products */,
+				A7FDF84A2D2F8D1E4478452C /* Frameworks */,
+				5E8C4F22A80AC2AFE00D65A5 /* ParserTools */,
+				0CE796BA6EB3EC314E1A5BD6 /* ParserToolsTests */,
+				D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */,
+			);
+			sourceTree = "<group>";
+		};
+		878C5457723F0ACC3C08865A /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48679262BB79CA209C977 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		94D704E4153848095866FE39 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E95118EC60DCAEFB7B7DD852 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A7FDF84A2D2F8D1E4478452C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D704E4153848095866FE39 /* iOS */,
+				878C5457723F0ACC3C08865A /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04B5EC9F3F782B5091298786 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1C027CB08F64DB52A8E305 /* ParserTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B27A262FDC230CD54F1273 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE6FE9BDF13D165F011DBA6 /* ParserTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B6CC1859E0554AE2603ED5D /* ParserToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3517B3CD27C8875270037241 /* Build configuration list for PBXNativeTarget "ParserToolsTests" */;
+			buildPhases = (
+				4D0D07288D4519F2F3BAAF7B /* Sources */,
+				11CB0D01315AA524EC5538E4 /* Frameworks */,
+				66B8237A5A6026842C1DE306 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBC0FB5B0FB174F1EDDC1C1 /* PBXTargetDependency */,
+			);
+			name = ParserToolsTests;
+			productName = ParserToolsTests;
+			productReference = E2EABF38A2CD9B9A4FD74A91 /* ParserToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E9F5E5F6B974ACF1978CDCA /* ParserToolsMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059157AA2332B831CF46B5B6 /* Build configuration list for PBXNativeTarget "ParserToolsMacTests" */;
+			buildPhases = (
+				67468337CA34F263A37B548B /* Sources */,
+				7B9793D5FE88DBD91D618724 /* Frameworks */,
+				18121B6B2CBF591B2C3C2BD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AF9E298B2D6A8911D741AA /* PBXTargetDependency */,
+			);
+			name = ParserToolsMacTests;
+			productName = ParserToolsMacTests;
+			productReference = 1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B336DA54CA61AB7D6F95F019 /* ParserToolsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5EA8AA4BAC479428CBAAB1 /* Build configuration list for PBXNativeTarget "ParserToolsMac" */;
+			buildPhases = (
+				834F7A29571257106CA09A82 /* Sources */,
+				A6336CE1D350BFE0C0432205 /* Frameworks */,
+				D3B27A262FDC230CD54F1273 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParserToolsMac;
+			productName = ParserToolsMac;
+			productReference = 6F5EE2D0E5E4B07924277199 /* ParserTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE80001C63A5FCA775FD90F4 /* ParserTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8082895391ED02323F3A4CC6 /* Build configuration list for PBXNativeTarget "ParserTools" */;
+			buildPhases = (
+				088BC3567936727BE4716C14 /* Sources */,
+				A17D11FB5BC46B9BF37B2F61 /* Frameworks */,
+				04B5EC9F3F782B5091298786 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParserTools;
+			productName = ParserTools;
+			productReference = D51DBD3C3738F18C5FAB424B /* ParserTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED42961C87629AA4E0485E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = FF4B20711CE33873616F485D /* Build configuration list for PBXProject "ParserTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 837417978C0B86E6E8B4563E;
+			productRefGroup = 29E7F26E178A670B956B4E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE80001C63A5FCA775FD90F4 /* ParserTools */,
+				1B6CC1859E0554AE2603ED5D /* ParserToolsTests */,
+				B336DA54CA61AB7D6F95F019 /* ParserToolsMac */,
+				5E9F5E5F6B974ACF1978CDCA /* ParserToolsMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088BC3567936727BE4716C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0D07288D4519F2F3BAAF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67468337CA34F263A37B548B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834F7A29571257106CA09A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBC0FB5B0FB174F1EDDC1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParserTools;
+			target = CE80001C63A5FCA775FD90F4 /* ParserTools */;
+			targetProxy = 889D6129D01CD680D0BF327E /* PBXContainerItemProxy */;
+		};
+		F1AF9E298B2D6A8911D741AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParserToolsMac;
+			target = B336DA54CA61AB7D6F95F019 /* ParserToolsMac */;
+			targetProxy = 0C183F91845D0569FFB19748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		107F2BDBA287DD3D83F6F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserToolsTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CC963FD80399E44620B9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1FCF47E691C18F82E6DF16A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bean.ParserTools;
+				PRODUCT_NAME = ParserTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24D49E9DDAB27506D2DFECF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserToolsTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		610EB5B80E0F974A21426348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bean.ParserTools;
+				PRODUCT_NAME = ParserTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		690DD7BBE0E195D94F4DDB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF6245666B7A3BAD98A0391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bean.ParserTools;
+				PRODUCT_NAME = ParserTools;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9EB9D3716FE59276171C754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserTools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bean.ParserTools;
+				PRODUCT_NAME = ParserTools;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D780854357539D4A038F8F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserToolsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD61DEDB222B86B2EDBA20F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ParserToolsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059157AA2332B831CF46B5B6 /* Build configuration list for PBXNativeTarget "ParserToolsMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107F2BDBA287DD3D83F6F82A /* Release */,
+				24D49E9DDAB27506D2DFECF4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3517B3CD27C8875270037241 /* Build configuration list for PBXNativeTarget "ParserToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D780854357539D4A038F8F92 /* Release */,
+				DD61DEDB222B86B2EDBA20F2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8082895391ED02323F3A4CC6 /* Build configuration list for PBXNativeTarget "ParserTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EB5B80E0F974A21426348 /* Release */,
+				1FCF47E691C18F82E6DF16A5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5EA8AA4BAC479428CBAAB1 /* Build configuration list for PBXNativeTarget "ParserToolsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EB9D3716FE59276171C754 /* Release */,
+				AEF6245666B7A3BAD98A0391 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4B20711CE33873616F485D /* Build configuration list for PBXProject "ParserTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC963FD80399E44620B9E54 /* Debug */,
+				690DD7BBE0E195D94F4DDB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED42961C87629AA4E0485E3 /* Project object */;
+}
