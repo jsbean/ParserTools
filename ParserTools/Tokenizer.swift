@@ -93,7 +93,18 @@ public final class Tokenizer {
     /**
      Make an array of `Token` values.
      
-     - TODO: indentation
+     **Example:**
+     
+     ```
+     let source = "abcd 1 ~> 1.23"
+     let tokenizer = Tokenizer(source: source)
+     let tokens = try tokenizer.tokenize()
+     tokens.map { $0.kind } == [.identifier("abcd"), .int(1), .symbol("~>"), .float(1.23, "1.23")]
+     ```
+     
+     - throws: `Error.unknownItem` if an unknown character is found in the source file.
+     
+     - TODO: Manage indentation
      */
     public func tokenize() throws -> [Token] {
         var tokens: [Token] = []
