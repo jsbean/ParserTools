@@ -39,7 +39,7 @@ public struct Token {
      Create a `Token` value with context within a source file:
      
      ```
-     let token = Token(.float(1.234, "1.2345"), range: 0...5, line: 0, columnRange: 0...5)
+     let token = Token(.float(1.2345, "1.2345"), range: 0...5, line: 0, columnRange: 0...5)
      ```
      */
     public init(_ kind: TokenKind, sourcePosition: SourcePosition = SourcePosition()) {
