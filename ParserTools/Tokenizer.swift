@@ -99,7 +99,12 @@ public final class Tokenizer {
      let source = "abcd 1 ~> 1.23"
      let tokenizer = Tokenizer(source: source)
      let tokens = try tokenizer.tokenize()
-     tokens.map { $0.kind } == [.identifier("abcd"), .int(1), .symbol("~>"), .float(1.23, "1.23")]
+     tokens.map { $0.kind } == [
+        .identifier("abcd"), 
+        .int(1), 
+        .symbol("~>"), 
+        .float(1.23, "1.23")
+     ]
      ```
      
      - throws: `Error.unknownItem` if an unknown character is found in the source file.
