@@ -11,9 +11,11 @@
 		2BB2783C93521B19EC9B44BE /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24296BD0F1C6BCA345A46523 /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CE6FE9BDF13D165F011DBA6 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51A9C73F35C4B1F6B5E38AA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
+		668805AF81F2821DA1374B7E /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD5006EF8B566C96447F99 /* ArrayTools.framework */; };
 		8696719DC1886EDC4AFBB8B8 /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC6D6CDCCCAA5D14FC44E5DE /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
 		BE6165E11A82178845C62162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95118EC60DCAEFB7B7DD852 /* Foundation.framework */; };
+		EC1D040BC820ACA7985A7EBF /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126EE8A5A5A6736862200675 /* ArrayTools.framework */; };
 		FB1C027CB08F64DB52A8E305 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07CD5006EF8B566C96447F99 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/iOS/ArrayTools.framework; sourceTree = "<group>"; };
+		126EE8A5A5A6736862200675 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/Mac/ArrayTools.framework; sourceTree = "<group>"; };
 		1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24296BD0F1C6BCA345A46523 /* ParserTools.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4755121EC7DDDE5CC9B29A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParserToolsTests/Info.plist; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032ED7361F60C9EE79483C21 /* Foundation.framework in Frameworks */,
+				668805AF81F2821DA1374B7E /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */,
+				EC1D040BC820ACA7985A7EBF /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				DFC48679262BB79CA209C977 /* Cocoa.framework */,
+				126EE8A5A5A6736862200675 /* ArrayTools.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
@@ -173,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				E95118EC60DCAEFB7B7DD852 /* Foundation.framework */,
+				07CD5006EF8B566C96447F99 /* ArrayTools.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 				4D0D07288D4519F2F3BAAF7B /* Sources */,
 				11CB0D01315AA524EC5538E4 /* Frameworks */,
 				66B8237A5A6026842C1DE306 /* CopyFiles */,
+				0772896E1D5273070061996A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +242,7 @@
 				67468337CA34F263A37B548B /* Sources */,
 				7B9793D5FE88DBD91D618724 /* Frameworks */,
 				18121B6B2CBF591B2C3C2BD3 /* CopyFiles */,
+				0772896F1D52731C0061996A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -307,6 +317,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0772896E1D5273070061996A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		0772896F1D52731C0061996A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		088BC3567936727BE4716C14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,6 +401,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserToolsTests/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -419,6 +461,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -441,6 +484,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserToolsTests/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -462,6 +506,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -523,6 +568,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserTools/Info.plist;
@@ -552,6 +598,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserTools/Info.plist;
@@ -573,6 +620,7 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserToolsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -587,6 +635,7 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParserToolsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;

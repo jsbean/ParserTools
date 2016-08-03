@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_project: ArrayTools.xcodeproj
+xcode_scheme: ArrayToolsMac
+xcode_sdk: macosx10.11
