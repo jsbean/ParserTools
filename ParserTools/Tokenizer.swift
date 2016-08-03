@@ -101,8 +101,11 @@ public final class Tokenizer {
      let tokens = try tokenizer.tokenize()
      tokens.map { $0.kind } == [
         .identifier("abcd"), 
-        .int(1), 
-        .symbol("~>"), 
+        .space,
+        .int(1),
+        .space,
+        .symbol("~>"),
+        .space,
         .float(1.23, "1.23")
      ]
      ```
