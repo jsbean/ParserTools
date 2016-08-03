@@ -41,8 +41,6 @@ public struct Token {
      ```
      let token = Token(.openBrace, range: 0...4, line: 0, columnRange: 0...4)
      ```
-     
-     - TODO: Inject `SourcePosition`, replacing `range`, `line`, `columnRange`.
      */
     public init(_ kind: TokenKind, sourcePosition: SourcePosition = SourcePosition()) {
         self.kind = kind
