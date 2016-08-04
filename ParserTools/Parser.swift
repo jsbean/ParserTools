@@ -45,7 +45,7 @@ public func one<A>(x: A) -> AnySequence<A> {
 }
 
 public func zeroOrMore<Token, A> (parser: Parser<Token, A>) -> Parser<Token, [A]> {
-    return (pure(prepend) <*> parser <*> lazy { zeroOrMore(parser) } ) <|> pure([])
+    return (pure(prepend) <*> parser <*> lazy { zeroOrMore(parser) }) <|> pure([])
 }
 
 public func oneOrMore<Token, A> (parser: Parser<Token, A>) -> Parser<Token, [A]> {
