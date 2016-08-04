@@ -16,8 +16,20 @@
 		077289781D52738C0061996A /* TokenKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077289761D52738C0061996A /* TokenKind.swift */; };
 		0772897A1D5273B10061996A /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077289791D5273B10061996A /* Tokenizer.swift */; };
 		0772897B1D5273B10061996A /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077289791D5273B10061996A /* Tokenizer.swift */; };
-		0772897D1D5273CF0061996A /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772897C1D5273CF0061996A /* TokenizerTests.swift */; };
-		0772897E1D5273CF0061996A /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772897C1D5273CF0061996A /* TokenizerTests.swift */; };
+		07C81A6D1D539597004F6D6C /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A6C1D539597004F6D6C /* Parser.swift */; };
+		07C81A6E1D539597004F6D6C /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A6C1D539597004F6D6C /* Parser.swift */; };
+		07C81A701D53A52C004F6D6C /* Parser+JoinedGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */; };
+		07C81A711D53A52C004F6D6C /* Parser+JoinedGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */; };
+		07C81A731D53B948004F6D6C /* Parser+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A721D53B948004F6D6C /* Parser+Map.swift */; };
+		07C81A741D53B948004F6D6C /* Parser+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A721D53B948004F6D6C /* Parser+Map.swift */; };
+		07C81A7C1D53BCDB004F6D6C /* Parser+Combinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */; };
+		07C81A7D1D53BCDB004F6D6C /* Parser+Combinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */; };
+		07C81A7F1D53BD73004F6D6C /* Parser+Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */; };
+		07C81A801D53BD73004F6D6C /* Parser+Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */; };
+		07C81A821D53C382004F6D6C /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A811D53C382004F6D6C /* ParserTests.swift */; };
+		07C81A831D53C382004F6D6C /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A811D53C382004F6D6C /* ParserTests.swift */; };
+		07C81A871D53C3BC004F6D6C /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */; };
+		07C81A881D53C3BD004F6D6C /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */; };
 		2BB2783C93521B19EC9B44BE /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24296BD0F1C6BCA345A46523 /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CE6FE9BDF13D165F011DBA6 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51A9C73F35C4B1F6B5E38AA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
@@ -74,7 +86,13 @@
 		077289731D52736F0061996A /* SourcePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourcePosition.swift; path = ParserTools/SourcePosition.swift; sourceTree = "<group>"; };
 		077289761D52738C0061996A /* TokenKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenKind.swift; path = ParserTools/TokenKind.swift; sourceTree = "<group>"; };
 		077289791D5273B10061996A /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tokenizer.swift; path = ParserTools/Tokenizer.swift; sourceTree = "<group>"; };
-		0772897C1D5273CF0061996A /* TokenizerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenizerTests.swift; path = ParserTools/TokenizerTests.swift; sourceTree = "<group>"; };
+		07C81A6C1D539597004F6D6C /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = ParserTools/Parser.swift; sourceTree = "<group>"; };
+		07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Parser+JoinedGenerator.swift"; path = "ParserTools/Parser+JoinedGenerator.swift"; sourceTree = "<group>"; };
+		07C81A721D53B948004F6D6C /* Parser+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Parser+Map.swift"; path = "ParserTools/Parser+Map.swift"; sourceTree = "<group>"; };
+		07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Parser+Combinators.swift"; path = "ParserTools/Parser+Combinators.swift"; sourceTree = "<group>"; };
+		07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Parser+Curry.swift"; path = "ParserTools/Parser+Curry.swift"; sourceTree = "<group>"; };
+		07C81A811D53C382004F6D6C /* ParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParserTests.swift; path = ParserToolsTests/ParserTests.swift; sourceTree = "<group>"; };
+		07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenizerTests.swift; path = ParserToolsTests/TokenizerTests.swift; sourceTree = "<group>"; };
 		07CD5006EF8B566C96447F99 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/iOS/ArrayTools.framework; sourceTree = "<group>"; };
 		126EE8A5A5A6736862200675 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/Mac/ArrayTools.framework; sourceTree = "<group>"; };
 		1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				3D8A9552FC185E235582C6B0 /* Supporting Files */,
-				0772897C1D5273CF0061996A /* TokenizerTests.swift */,
+				07C81A811D53C382004F6D6C /* ParserTests.swift */,
+				07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */,
 			);
 			name = ParserToolsTests;
 			sourceTree = "<group>";
@@ -172,6 +191,11 @@
 				077289701D5273610061996A /* Token.swift */,
 				077289761D52738C0061996A /* TokenKind.swift */,
 				077289791D5273B10061996A /* Tokenizer.swift */,
+				07C81A6C1D539597004F6D6C /* Parser.swift */,
+				07C81A721D53B948004F6D6C /* Parser+Map.swift */,
+				07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */,
+				07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */,
+				07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */,
 			);
 			name = ParserTools;
 			sourceTree = "<group>";
@@ -375,7 +399,12 @@
 			files = (
 				077289711D5273610061996A /* Token.swift in Sources */,
 				0772897A1D5273B10061996A /* Tokenizer.swift in Sources */,
+				07C81A701D53A52C004F6D6C /* Parser+JoinedGenerator.swift in Sources */,
+				07C81A7C1D53BCDB004F6D6C /* Parser+Combinators.swift in Sources */,
+				07C81A731D53B948004F6D6C /* Parser+Map.swift in Sources */,
+				07C81A6D1D539597004F6D6C /* Parser.swift in Sources */,
 				077289771D52738C0061996A /* TokenKind.swift in Sources */,
+				07C81A7F1D53BD73004F6D6C /* Parser+Curry.swift in Sources */,
 				077289741D52736F0061996A /* SourcePosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0772897D1D5273CF0061996A /* TokenizerTests.swift in Sources */,
+				07C81A821D53C382004F6D6C /* ParserTests.swift in Sources */,
+				07C81A871D53C3BC004F6D6C /* TokenizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0772897E1D5273CF0061996A /* TokenizerTests.swift in Sources */,
+				07C81A831D53C382004F6D6C /* ParserTests.swift in Sources */,
+				07C81A881D53C3BD004F6D6C /* TokenizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +433,12 @@
 			files = (
 				077289721D5273610061996A /* Token.swift in Sources */,
 				0772897B1D5273B10061996A /* Tokenizer.swift in Sources */,
+				07C81A711D53A52C004F6D6C /* Parser+JoinedGenerator.swift in Sources */,
+				07C81A7D1D53BCDB004F6D6C /* Parser+Combinators.swift in Sources */,
+				07C81A741D53B948004F6D6C /* Parser+Map.swift in Sources */,
+				07C81A6E1D539597004F6D6C /* Parser.swift in Sources */,
 				077289781D52738C0061996A /* TokenKind.swift in Sources */,
+				07C81A801D53BD73004F6D6C /* Parser+Curry.swift in Sources */,
 				077289751D52736F0061996A /* SourcePosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +530,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -545,6 +582,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				GCC_NO_COMMON_BLOCKS = YES;
