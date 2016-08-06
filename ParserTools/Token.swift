@@ -47,3 +47,17 @@ public struct Token {
         self.sourcePosition = sourcePosition
     }
 }
+
+extension Token: CustomStringConvertible {
+    
+    public var description: String {
+        return "\(kind)"
+    }
+}
+
+extension Token: CustomDebugStringConvertible {
+    
+    public var debugDescription: String {
+        return "\(kind); \(sourcePosition.debugDescription)"
+    }
+}

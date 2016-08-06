@@ -45,3 +45,17 @@ public struct SourcePosition {
         self.columns = columns
     }
 }
+
+extension SourcePosition: CustomStringConvertible {
+    
+    public var description: String {
+        return "\(range)"
+    }
+}
+
+extension SourcePosition: CustomDebugStringConvertible {
+    
+    public var debugDescription: String {
+        return "range: \(range); line: \(line); columns: \(columns)"
+    }
+}

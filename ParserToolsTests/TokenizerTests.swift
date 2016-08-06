@@ -242,6 +242,12 @@ class TokenizerTests: XCTestCase {
         XCTAssertEqual(token_abc.sourcePosition.columns, 0...2)
     }
     
+    func testTokenCustomDebugStringConvertible() throws {
+        let source = "abc 123\n\t12.123 123 abc ~> <> ok"
+        let tokens = try Tokenizer(source: source).tokenize()
+        tokens.forEach { debugPrint($0) }
+    }
+    
     //    func testPerformanceManySimpleIdentifiers() throws {
     //        let string = (0..<10000).map { _ in "a" }.joinWithSeparator(" ")
     //        let tokenizer = Tokenizer(source: string)
