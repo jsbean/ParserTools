@@ -1,1 +1,3 @@
 github "dn-m/ArrayTools" "v1.4.7"
+github "dn-m/EnumTools" "v0.4.4"
+github "dn-m/TreeTools" "v0.4.7"

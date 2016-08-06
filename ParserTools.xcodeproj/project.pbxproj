@@ -30,11 +30,15 @@
 		07C81A831D53C382004F6D6C /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A811D53C382004F6D6C /* ParserTests.swift */; };
 		07C81A871D53C3BC004F6D6C /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */; };
 		07C81A881D53C3BD004F6D6C /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */; };
+		2085ED73931E6D8A78FAFE9D /* TreeTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E9944E5E579F6A5CBDE340 /* TreeTools.framework */; };
 		2BB2783C93521B19EC9B44BE /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24296BD0F1C6BCA345A46523 /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4CE6FE9BDF13D165F011DBA6 /* ParserTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51A9C73F35C4B1F6B5E38AA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
 		668805AF81F2821DA1374B7E /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD5006EF8B566C96447F99 /* ArrayTools.framework */; };
+		71F9E8AE86186414D4B44911 /* EnumTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C31538AE26984440EA0F4 /* EnumTools.framework */; };
 		8696719DC1886EDC4AFBB8B8 /* ParserTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC6D6CDCCCAA5D14FC44E5DE /* ParserTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8FA6250D3D3B18CC819F7E00 /* EnumTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EC9BF792B4FBCB2D7380BB /* EnumTools.framework */; };
+		93873491BAE29C1E75588CC3 /* TreeTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB285B36813B5C0B592512C3 /* TreeTools.framework */; };
 		B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC48679262BB79CA209C977 /* Cocoa.framework */; };
 		BE6165E11A82178845C62162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95118EC60DCAEFB7B7DD852 /* Foundation.framework */; };
 		EC1D040BC820ACA7985A7EBF /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126EE8A5A5A6736862200675 /* ArrayTools.framework */; };
@@ -95,14 +99,18 @@
 		07C81A841D53C3A9004F6D6C /* TokenizerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenizerTests.swift; path = ParserToolsTests/TokenizerTests.swift; sourceTree = "<group>"; };
 		07CD5006EF8B566C96447F99 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/iOS/ArrayTools.framework; sourceTree = "<group>"; };
 		126EE8A5A5A6736862200675 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/Mac/ArrayTools.framework; sourceTree = "<group>"; };
+		13EC9BF792B4FBCB2D7380BB /* EnumTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumTools.framework; path = Carthage/Build/iOS/EnumTools.framework; sourceTree = "<group>"; };
 		1E33632F225A1689A4BDB09A /* ParserToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1C31538AE26984440EA0F4 /* EnumTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumTools.framework; path = Carthage/Build/Mac/EnumTools.framework; sourceTree = "<group>"; };
 		24296BD0F1C6BCA345A46523 /* ParserTools.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4755121EC7DDDE5CC9B29A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParserToolsTests/Info.plist; sourceTree = "<group>"; };
 		6F5EE2D0E5E4B07924277199 /* ParserTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6D6CDCCCAA5D14FC44E5DE /* ParserTools.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB285B36813B5C0B592512C3 /* TreeTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeTools.framework; path = Carthage/Build/iOS/TreeTools.framework; sourceTree = "<group>"; };
 		BE6BE5C35E0E00891AD51B84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParserTools/Info.plist; sourceTree = "<group>"; };
 		D0CB1DCB3386D9D855EE2D48 /* ParserTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParserTools.h; path = ParserTools/ParserTools.h; sourceTree = "<group>"; };
 		D51DBD3C3738F18C5FAB424B /* ParserTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParserTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E9944E5E579F6A5CBDE340 /* TreeTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeTools.framework; path = Carthage/Build/Mac/TreeTools.framework; sourceTree = "<group>"; };
 		DFC48679262BB79CA209C977 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E2EABF38A2CD9B9A4FD74A91 /* ParserToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95118EC60DCAEFB7B7DD852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,6 +139,8 @@
 			files = (
 				032ED7361F60C9EE79483C21 /* Foundation.framework in Frameworks */,
 				668805AF81F2821DA1374B7E /* ArrayTools.framework in Frameworks */,
+				8FA6250D3D3B18CC819F7E00 /* EnumTools.framework in Frameworks */,
+				93873491BAE29C1E75588CC3 /* TreeTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +150,8 @@
 			files = (
 				B61603A9B23C66D4AB723672 /* Cocoa.framework in Frameworks */,
 				EC1D040BC820ACA7985A7EBF /* ArrayTools.framework in Frameworks */,
+				71F9E8AE86186414D4B44911 /* EnumTools.framework in Frameworks */,
+				2085ED73931E6D8A78FAFE9D /* TreeTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +164,29 @@
 				BE6BE5C35E0E00891AD51B84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		073B12CF1D54E30B001EAF29 /* Tokenizer */ = {
+			isa = PBXGroup;
+			children = (
+				077289731D52736F0061996A /* SourcePosition.swift */,
+				077289701D5273610061996A /* Token.swift */,
+				077289761D52738C0061996A /* TokenKind.swift */,
+				077289791D5273B10061996A /* Tokenizer.swift */,
+			);
+			name = Tokenizer;
+			sourceTree = "<group>";
+		};
+		073B12D01D54E311001EAF29 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				07C81A6C1D539597004F6D6C /* Parser.swift */,
+				07C81A721D53B948004F6D6C /* Parser+Map.swift */,
+				07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */,
+				07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */,
+				07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */,
+			);
+			name = Parser;
 			sourceTree = "<group>";
 		};
 		0CE796BA6EB3EC314E1A5BD6 /* ParserToolsTests */ = {
@@ -187,15 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				01D6BBBD5F8D0270FE0CE799 /* Supporting Files */,
-				077289731D52736F0061996A /* SourcePosition.swift */,
-				077289701D5273610061996A /* Token.swift */,
-				077289761D52738C0061996A /* TokenKind.swift */,
-				077289791D5273B10061996A /* Tokenizer.swift */,
-				07C81A6C1D539597004F6D6C /* Parser.swift */,
-				07C81A721D53B948004F6D6C /* Parser+Map.swift */,
-				07C81A6F1D53A52C004F6D6C /* Parser+JoinedGenerator.swift */,
-				07C81A7B1D53BCDB004F6D6C /* Parser+Combinators.swift */,
-				07C81A7E1D53BD73004F6D6C /* Parser+Curry.swift */,
+				073B12CF1D54E30B001EAF29 /* Tokenizer */,
+				073B12D01D54E311001EAF29 /* Parser */,
 			);
 			name = ParserTools;
 			sourceTree = "<group>";
@@ -216,6 +244,8 @@
 			children = (
 				DFC48679262BB79CA209C977 /* Cocoa.framework */,
 				126EE8A5A5A6736862200675 /* ArrayTools.framework */,
+				1F1C31538AE26984440EA0F4 /* EnumTools.framework */,
+				D5E9944E5E579F6A5CBDE340 /* TreeTools.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
@@ -225,6 +255,8 @@
 			children = (
 				E95118EC60DCAEFB7B7DD852 /* Foundation.framework */,
 				07CD5006EF8B566C96447F99 /* ArrayTools.framework */,
+				13EC9BF792B4FBCB2D7380BB /* EnumTools.framework */,
+				BB285B36813B5C0B592512C3 /* TreeTools.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -369,6 +401,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EnumTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TreeTools.framework",
 			);
 			outputPaths = (
 			);
@@ -383,6 +417,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/EnumTools.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/TreeTools.framework",
 			);
 			outputPaths = (
 			);

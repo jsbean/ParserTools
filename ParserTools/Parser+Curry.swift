@@ -6,6 +6,8 @@
 //
 //
 
+// TODO: Consider github.com/thoughtbot/Curry as a dependency
+
 public func curry <A, B, C, D> (f: (A, B, C) -> D) -> A -> B -> C -> D {
     return { a in { b in { c in f(a,b,c) } } }
 }
