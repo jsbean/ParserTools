@@ -16,6 +16,15 @@ public struct Parser<Token, Result> {
     /// Function that takes an `ArraySlice` of generic Token type, and returns a sequence of
     /// 2-tuples containing the generic Result type and an `ArraySlice` of Token type values.
     public let parse: ArraySlice <Token> -> AnySequence <(Result, ArraySlice<Token>)>
+    
+    // MARK: - Initializers
+    
+    /**
+     Create a `Parser` with a given `parse` function.
+     */
+    public init(_ parse: ArraySlice <Token> -> AnySequence <(Result, ArraySlice<Token>)>) {
+        self.parse = parse
+    }
 }
 
 public func eof <A> () -> Parser<A, ()> {
