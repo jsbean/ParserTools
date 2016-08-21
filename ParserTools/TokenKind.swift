@@ -54,6 +54,8 @@ public enum TokenKind {
      */
     case space
     
+    // TODO: make these symbols
+    
     /**
      Line comment token.
      

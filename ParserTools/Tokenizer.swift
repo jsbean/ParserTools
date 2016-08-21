@@ -56,13 +56,13 @@ public final class Tokenizer {
         .whitespaceAndNewlineCharacterSet()
     
     private lazy var tokenMatching: [() -> TokenKind?] = {
-        [
+        return [
             self.matchTerminal,
             self.matchIdentifier,
             self.matchSymbol,
             self.matchInt,
             self.matchFloat,
-            ]
+        ]
     }()
     
     // MARK: - Scanning apparatus

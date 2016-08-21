@@ -6,6 +6,7 @@
 //
 //
 
+// TODO: Remove
 public func sequence <Token, A, B> (lhs: Parser<Token, A>, _ rhs: Parser<Token, B>)
     -> Parser<Token, (A, B)>
 {
@@ -20,6 +21,7 @@ public func sequence <Token, A, B> (lhs: Parser<Token, A>, _ rhs: Parser<Token, 
     }
 }
 
+// TODO: Remove
 public func combinator<Token, A, B>(lhs: Parser<Token, A -> B>, _ rhs: Parser<Token, A>)
     -> Parser<Token, B>
 {
